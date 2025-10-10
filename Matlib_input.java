@@ -42,3 +42,5 @@ public class MadLibsInputStory {
         input.close();
     }
 }
+# use substring and index 
+#parsing works by indexing then substring it and then ask the user about the substring
