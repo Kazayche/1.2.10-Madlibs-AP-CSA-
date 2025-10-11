@@ -22,15 +22,10 @@ public class MadLib
     
     System.out.print("Enter a number: ");
     String number = input.nextLine();
-    
-    System.out.print("Enter an adverb: ");
-    String adverb = input.nextLine();
-    
-    System.out.print("Enter another noun: ");
-    String noun2 = input.nextLine();
+
     
     //  display the story
     System.out.println("\nYour Mad Lib Story:");    //prints a result of the MadLib story given the user inputs 
-    System.out.println("Once upon a time in a " + adjective + " land, a " + noun + " began to " + verb + ". The " + pluralNoun + " watched as " + number + " " + noun2 + "s danced " + adverb + ".");  // combines the story template and the user inputs and prints it out at the end 
+    System.out.println("My" + adjective +"friend decided to" +verb + number + pluralNoun +"at the park. I couldn't believe my eyes when I saw them trying to lift the" + noun + "!");  // combines the story template and the user inputs and prints it out at the end 
   }
 }
